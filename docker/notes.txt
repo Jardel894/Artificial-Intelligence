@@ -1,0 +1,4 @@
+docker ps
+docker exec -it test-ollama-1 /bin/bash
+
+ollama run llama3

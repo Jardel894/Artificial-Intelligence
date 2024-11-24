@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ai
+  ai:
+    ollama:
+      model: llama3
+      base-url: http://localhost:11434/api
+
+server:
+  port: 8082
